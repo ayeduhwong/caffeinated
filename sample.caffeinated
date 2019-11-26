@@ -1,0 +1,42 @@
+customer sample;			// program sample
+
+toppings:
+	i : boba; 				// int
+	quantity : ice; 		// bool
+    rating : sweet;  		// char
+    stamps : flavor; 		// string
+    
+ORDER // indicates main
+
+    i = 10;
+    quantity = hot; 	// quantity = false  
+    rating = 'F';			// char = 'F'; 
+    stamps = "caffeinated";		// string = "caffeinated"; 
+    
+    // arithmetic operations
+    
+    i = i + 5; 				// 10 + 5 = 15
+    i = i - 6; 				// 15 - 5 = 10
+    i = i * 4; 				// 10 * 4 = 40
+    i = i / 2; 				// 40 / 2 = 20
+  
+    
+    // conditional statements
+    
+    milk (i > 10) 			// if (i > 10)
+    START
+    	rating = 'A';			// char = 'A'; 
+    	quantity = cold; 	// set bool quantity flag to true
+    COMPLETE 
+       
+    nondairy 				// else
+    START
+    	i = 5;				// i = 5  and bool quantity stays false  	
+    COMPLETE;
+    
+    brew (quantity == hot) 	// while (bool quantity == false)
+	START
+    	rating = 'C'; 		// rating = 'C'
+	COMPLETE
+ 
+PICKUP // end main

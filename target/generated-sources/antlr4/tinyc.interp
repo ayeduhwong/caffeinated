@@ -1,0 +1,55 @@
+token literal names:
+null
+null
+'ORDER'
+'PICKUP'
+'milk'
+'nondairy'
+'creamer'
+'brew'
+null
+null
+null
+null
+'+'
+'-'
+'*'
+'/'
+'<'
+'>'
+'=='
+'>='
+'<='
+'!='
+
+token symbolic names:
+null
+Statement
+BEGIN
+END
+If
+Else
+Elif
+While
+BOBA
+Bool
+Char
+String
+Add
+Sub
+Mult
+Div
+Less_than
+Greater_than
+Equals
+Gt_EQ
+Lt_EQ
+Not_EQ
+
+rule names:
+id
+integer
+
+
+atn:
+[3, 24715, 42794, 33075, 47597, 16764, 15335, 30598, 22884, 3, 23, 11, 4, 2, 9, 2, 4, 3, 9, 3, 3, 2, 3, 2, 3, 3, 3, 3, 3, 3, 2, 2, 4, 2, 4, 2, 2, 2, 8, 2, 6, 3, 2, 2, 2, 4, 8, 3, 2, 2, 2, 6, 7, 7, 13, 2, 2, 7, 3, 3, 2, 2, 2, 8, 9, 7, 10, 2, 2, 9, 5, 3, 2, 2, 2, 2]
